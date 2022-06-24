@@ -1,0 +1,17 @@
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Regole generiche */
+
+html {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  color: black;
+  background: linear-gradient(#8b95d3, #1d43b4);
+  height: 100vh;
+}
+

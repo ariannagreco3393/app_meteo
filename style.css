@@ -15,3 +15,22 @@ html {
   height: 100vh;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title {
+  color: rgb(0, 89, 255);
+  font-size: 40px;
+}
+

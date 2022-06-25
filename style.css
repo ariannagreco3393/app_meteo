@@ -78,3 +78,14 @@ main {
 
 }
 
+/* Effetti di caricamento */
+
+.js-loading .weather-icon {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.js-loading .weather-temperature {
+  opacity: 0;
+  transform: translateY(30px);
+}

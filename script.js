@@ -44,7 +44,8 @@ function success(position) {
         weatherTemperature.innerHTML = `${temperature}°`
         weatherIcon.src = `images/${icon}.png`
 
-        
+        //rimuovo la classe js-loading da html
+        rootElement.classList.remove('js-loading')
 
     })
 

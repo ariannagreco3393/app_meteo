@@ -44,8 +44,18 @@ function success(position) {
         weatherTemperature.innerHTML = `${temperature}°`
         weatherIcon.src = `images/${icon}.png`
 
+        
+
     })
 
 }
 
-      
+
+//in caso di errore
+
+function error(error) {
+    console.error(error)
+    weatherLocation.innerHTML = 'Attiva la posizione sul tuo browser'
+}
+
+

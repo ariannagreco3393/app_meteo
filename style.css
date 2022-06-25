@@ -7,12 +7,15 @@
 
 /* Regole generiche */
 
-html {
-  font-family: 'Roboto', sans-serif;
+body {
   line-height: 1;
   color: black;
-  background: linear-gradient(#8b95d3, #1d43b4);
+  background: linear-gradient(#83A4F9, #193ca5);
   height: 100vh;
+}
+
+img {
+  max-width: 100%;
 }
 
 .container {
@@ -21,16 +24,57 @@ html {
   padding: 2rem;
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+}
+
 /* logo */
 
 .logo {
   display: flex;
   align-items: center;
   gap: 1rem;
+  font-family: 'Fascinate', cursive;
 }
 
 .title {
   color: rgb(0, 89, 255);
   font-size: 40px;
+}
+
+/* main */
+
+main {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* section today weather */
+
+.today-weather {
+  text-align: center;
+  margin-bottom: 4rem;
+
+}
+
+.weather-text {
+  color: white;
+  font-size: 60px;
+}
+
+.weather-icon {
+  transition: transform 0.5s, opacity 1s;
+}
+
+.weather-location {
+  margin-bottom: 1rem;
+
+}
+
+.weather-temperature {
+  transition: transform 0.5s, opacity 1s;
+
 }
 

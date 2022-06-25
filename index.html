@@ -1,36 +1,55 @@
 <!DOCTYPE html>
-<html lang="it" class="js-loading">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="it">
 
-    <!-- Icon  -->
-    <link rel="icon" href="images/icon.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- Icon  -->
+  <link rel="icon" href="images/icon.png" />
 
-    <!-- Style -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
 
-    <title>Meteo App</title>
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
 
-  <body>
-   <header>
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Meteo App</title>
+</head>
+
+<body>
+  <header>
     <div class="container logo">
+      <!-- web site logo -->
       <img width="80" src="./images/icon.png" alt="logo meteo">
-      <div class="title">METEO</div>
+      <div class="title">METEO APP</div>
     </div>
-   </header>
-   
-   <main></main>
+  </header>
+  <!-- /site header -->
+
+  <main>
+    <section class="today-weather">
+      <div class="weather-info">
+        <img class="weather-icon" width="400" src="./images/01d.png" alt="">
+      </div>
+      <div class="weather-text">
+        <div class="weather-location">Loading...</div>
+        <div class="weather-temperature">30°</div>
+      </div>
+    </section>
+  </main>
 
 
-    <!-- JS -->
-    <script src="script.js"></script>
-  </body>
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+
 </html>

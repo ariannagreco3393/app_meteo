@@ -6,5 +6,9 @@ const weatherTemperature = document.querySelector('.weather-temperature')
 
 
 
+//recupero la posizione
+window.navigator.geolocation.getCurrentPosition(success, error)
+
+
 
       
